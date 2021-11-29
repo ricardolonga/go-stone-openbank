@@ -1,4 +1,4 @@
-# go-stone-openbank
+# ricardolonga/go-stone-openbank
 
 A Go library to connect with [Stone Open Banking API](https://docs.openbank.stone.com.br/)
 
