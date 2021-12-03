@@ -51,7 +51,7 @@ func getPayload(jwe *jose.JSONWebSignature) ([]byte, error) {
 		return nil, err
 	}
 
-	b, err := base64.StdEncoding.DecodeString(p.Payload)
+	b, err := base64.RawStdEncoding.DecodeString(p.Payload)
 	if err != nil {
 		return nil, err
 	}
